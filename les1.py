@@ -37,7 +37,11 @@ def bankruptUser():
     for key in range(len(UserName)):
         if UserName[key]['User'] == let:
             UserName[key]['cash'] = 0
-            print(UserName[key]['User'], str(UserName[key]['cash']) + 'you are bankrupt')
+            print(UserName[key]['User'], str(UserName[key]['cash']) + '  you are bankrupt')
         else:
             print('Error, no such user please try again')
 bankruptUser()
+
+
+def serchCommand():
+    
